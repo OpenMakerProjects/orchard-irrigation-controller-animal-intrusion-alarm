@@ -1,0 +1,20 @@
+{
+  "id": 138,
+  "title": "Orchard Irrigation Controller Animal Intrusion Alarm",
+  "repository_slug": "orchard-irrigation-controller-animal-intrusion-alarm",
+  "category": "Smart Agriculture",
+  "platform": "STM32",
+  "platform_family": "arduino",
+  "difficulty": "Beginner",
+  "estimated_hours": 16,
+  "connectivity": "GSM",
+  "components": [
+    "capacitive soil sensor",
+    "solar charger"
+  ],
+  "scope": "Build a smart agriculture prototype that uses capacitive soil sensor, solar charger to detect and report animal movement. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Animal Intrusion Alarm demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/orchard-irrigation-controller-animal-intrusion-alarm/orchard-irrigation-controller-animal-intrusion-alarm.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
